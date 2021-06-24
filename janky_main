@@ -2,6 +2,6 @@ properties([[$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'h
 node {
     stage ("one") {
         git branch: 'main', url: 'https://github.com/paswado/another-test'
-        bat "more READNE.md"
+        bat "more README.md"
     }
 }
